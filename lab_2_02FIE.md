@@ -112,7 +112,13 @@ Write step-by-step instructions for each part of the implementation.
 
 2. **Send `signed_challenge.sig` to the server.**
 
----
+    check server ip
+
+    ```sh
+    ip a
+    ```
+
+    <img width="" alt="Screenshot" src="https://github.com/hoangphung123/Lab2_IS/blob/master/ip-server.png?raw=true"><br> 
 
 ## Step 5: Server Verifies the Signature  
 
