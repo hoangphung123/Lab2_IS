@@ -53,15 +53,17 @@ Write step-by-step instructions for each part of the implementation.
    echo "This is a challenge message. the message is 12021" > challenge.txt
    ```  
 
-   <img width="" alt="Screenshot" src="https://github.com/hoangphung123/Lab2_IS/blob/master/challenge.png?raw=true"><br>
+   <img width="" alt="Screenshot" src="https://github.com/hoangphung123/Lab2_IS/blob/master/Challenge.png?raw=true"><br>
 
 2. **Encrypt the challenge message with the client's public key**:  
    Encrypt the challenge message to ensure only the client can decrypt it:  
    ```sh
-   openssl rsautl -encrypt -inkey client_public.pem -pubin -in challenge.txt -out challenge.enc
+   openssl pkeyutl -encrypt -inkey client_public.pem -pubin -in challenge.txt -out challenge.enc
    ```  
    - Input: `client_public.pem`, `challenge.txt`.  
    - Output: `challenge.enc` (encrypted message).  
+
+   <img width="" alt="Screenshot" src="https://github.com/hoangphung123/Lab2_IS/blob/master/ChallengeEnc.png?raw=true"><br>
 
 3. **Send `challenge.enc` to the client.**
 
