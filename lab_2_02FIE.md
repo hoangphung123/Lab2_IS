@@ -73,7 +73,15 @@ Write step-by-step instructions for each part of the implementation.
     ip a
     ```
 
-    <img width="" alt="Screenshot" src="https://github.com/hoangphung123/Lab2_IS/blob/master/IP_client.png?raw=true"><br>    
+    <img width="" alt="Screenshot" src="https://github.com/hoangphung123/Lab2_IS/blob/master/IP_client.png?raw=true"><br> 
+
+    Send file challenge.enc to client use `scp`
+
+    ```sh
+    scp challenge.enc hoang@192.168.202.255:~
+    ``` 
+
+    <img width="" alt="Screenshot" src="https://github.com/hoangphung123/Lab2_IS/blob/master/sendFile.png?raw=true"><br> 
 ---
 
 ## Step 3: Client Decrypts the Challenge Message  
