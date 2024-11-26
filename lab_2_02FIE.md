@@ -147,6 +147,8 @@ Write step-by-step instructions for each part of the implementation.
        Verification Failure
        ```
 
+       <img width="" alt="Screenshot" src="https://github.com/hoangphung123/Lab2_IS/blob/master/verify.png?raw=true"><br> 
+
 ---
 
 **Explanation**:  
