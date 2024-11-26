@@ -67,6 +67,13 @@ Write step-by-step instructions for each part of the implementation.
 
 3. **Send `challenge.enc` to the client.**
 
+    Check the client-side IP address: 
+
+    ```sh
+    ip a
+    ```
+
+    <img width="" alt="Screenshot" src="https://github.com/hoangphung123/Lab2_IS/blob/master/IP_client.png?raw=true"><br>    
 ---
 
 ## Step 3: Client Decrypts the Challenge Message  
