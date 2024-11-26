@@ -108,6 +108,8 @@ Write step-by-step instructions for each part of the implementation.
    - Input: `client_private.pem`, `decrypted_challenge.txt`.  
    - Output: `signed_challenge.sig` (signature).  
 
+   <img width="" alt="Screenshot" src="https://github.com/hoangphung123/Lab2_IS/blob/master/sig.png?raw=true"><br> 
+
 2. **Send `signed_challenge.sig` to the server.**
 
 ---
