@@ -34,7 +34,7 @@ Write step-by-step instructions for each part of the implementation.
    ```  
    - Output: `client_private.pem` (client's private key).
 
-   <img width="" alt="Screenshot" src="https://github.com/hoangphung123/Lab2_IS/blob/master/Private.png?raw=true"><br>
+   <img width="" alt="Screenshot" src="https://github.com/hoangphung123/Lab2_IS/blob/master/Privatekey.png?raw=true"><br>
 
 2. **Generate the public key for the client**:  
    Use the private key to derive the public key:  
@@ -43,15 +43,17 @@ Write step-by-step instructions for each part of the implementation.
    ```  
    - Output: `client_public.pem` (client's public key).
 
----
+    <img width="" alt="Screenshot" src="https://github.com/hoangphung123/Lab2_IS/blob/master/publicKey.png?raw=true"><br>
 
 ## Step 2: Server Creates and Encrypts the Challenge Message  
 
 1. **Create the challenge message**:  
    Create a plaintext file with the challenge message:  
    ```sh
-   echo "This is a challenge message" > challenge.txt
+   echo "This is a challenge message. the message is 12021" > challenge.txt
    ```  
+
+   <img width="" alt="Screenshot" src="https://github.com/hoangphung123/Lab2_IS/blob/master/challenge.png?raw=true"><br>
 
 2. **Encrypt the challenge message with the client's public key**:  
    Encrypt the challenge message to ensure only the client can decrypt it:  
