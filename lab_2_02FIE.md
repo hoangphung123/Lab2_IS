@@ -20,6 +20,11 @@ Write step-by-step instructions for each part of the implementation.
 
 **Answer 1**:  
 
+## Set up:
+- Use vmware to create 2 virtual machines running the ubuntu operating system
+
+<img width="" alt="Screenshot" src="https://github.com/hoangphung123/Lab2_IS/blob/master/setup.png?raw=true"><br>
+
 ## Step 1: Generate RSA Keys for Client  
 
 1. **Generate the private key for the client**:  
@@ -28,6 +33,8 @@ Write step-by-step instructions for each part of the implementation.
    openssl genrsa -out client_private.pem 2048
    ```  
    - Output: `client_private.pem` (client's private key).
+
+   <img width="" alt="Screenshot" src="https://github.com/hoangphung123/Lab2_IS/blob/master/Private.png?raw=true"><br>
 
 2. **Generate the public key for the client**:  
    Use the private key to derive the public key:  
