@@ -75,7 +75,7 @@ Write step-by-step instructions for each part of the implementation.
 
     <img width="" alt="Screenshot" src="https://github.com/hoangphung123/Lab2_IS/blob/master/IP_client.png?raw=true"><br> 
 
-    Send file challenge.enc to client use `scp`
+    Send file challenge.enc and client_private.pem to client use `scp`
 
     ```sh
     scp challenge.enc hoang@192.168.202.255:~
@@ -92,7 +92,9 @@ Write step-by-step instructions for each part of the implementation.
    openssl rsautl -decrypt -inkey client_private.pem -in challenge.enc -out decrypted_challenge.txt
    ```  
    - Input: `client_private.pem`, `challenge.enc`.  
-   - Output: `decrypted_challenge.txt` (plaintext challenge).  
+   - Output: `decrypted_challenge.txt` (plaintext challenge). 
+
+   <img width="" alt="Screenshot" src="https://github.com/hoangphung123/Lab2_IS/blob/master/client_decrypt.png?raw=true"><br>  
 
 ---
 
