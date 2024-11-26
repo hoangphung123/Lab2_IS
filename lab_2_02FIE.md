@@ -118,7 +118,15 @@ Write step-by-step instructions for each part of the implementation.
     ip a
     ```
 
-    <img width="" alt="Screenshot" src="https://github.com/hoangphung123/Lab2_IS/blob/master/ip-server.png?raw=true"><br> 
+    <img width="" alt="Screenshot" src="https://github.com/hoangphung123/Lab2_IS/blob/master/ip_server.png?raw=true"><br> 
+
+    send file signed_challenge.sig and decrypted_challenge.txt to server
+
+    ```sh
+    scp signed_challenge.sig hoang@192.168.202.129:~
+    ```
+
+    <img width="" alt="Screenshot" src="https://github.com/hoangphung123/Lab2_IS/blob/master/sendFiletoServer.png?raw=true"><br> 
 
 ## Step 5: Server Verifies the Signature  
 
